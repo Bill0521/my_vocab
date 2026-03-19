@@ -1,50 +1,364 @@
-abandon,vt. 丢弃；放弃，抛弃,He had to abandon his plan.
-abnormal,a. 不正常的；变态的,The results of the test were abnormal.
-abolish,vt. 废除，取消,The tax was abolished last year.
-abstain,vi. 戒；避开；放弃,He decided to abstain from alcohol.
-abstract,a. 抽象的 n. 摘要,It's a very abstract concept.
-abundance,n. 丰富，充裕,There is an abundance of food.
-abuse,vt. 滥用；虐待 n. 滥用,Drug abuse is a serious problem.
-accelerate,vt. (使)加快；促进,The car began to accelerate.
-accessory,n. 同谋，从犯；附件,She bought some accessories for her dress.
-accommodate,vt. 容纳；供应，供给,The hotel can accommodate 500 guests.
-accordance,n. 一致；和谐；授予,In accordance with the rules.
-accordingly,ad. 因此，所以；照着,Please inform us accordingly.
-accumulate,vt. 积累 vi. 堆积,Dust began to accumulate on the table.
-accurately,ad. 准确地,He measured the room accurately.
-accuse,vt. 指责；归咎于,They accused him of cheating.
-accustomed,a. 惯常的；习惯的,He is accustomed to hard work.
-acknowledge,vt. 承认；告知收到,Please acknowledge receipt of this letter.
-acquire,vt. 占有；取得；获得,She acquired a new skill.
-activate,vt. 激活；使活动,The alarm was activated.
-acute,a. 尖锐的；敏锐的,He has an acute sense of smell.
-adapt,vt. 使适应；改编,Animals must adapt to their environment.
-adhere,vi. 粘附；遵守，坚持,The paint will adhere to the wall.
-adjacent,a. 毗连的；紧接着的,The school is adjacent to the park.
-adjoin,vt. 贴近，毗连；靠近,Our house adjoins the library.
-adjustable,a. 可调整的，可校准的,The height of the seat is adjustable.
-administer,vt. 管理；执行,She administers the company's finances.
-adolescent,n. 青少年 a. 青春期的,Adolescent behavior can be complex.
-adopt,vt. 收养；采用；批准,They decided to adopt a child.
-advent,n. 来临，出现,The advent of the internet changed everything.
-adverse,a. 不利的的；有害的,Adverse weather conditions.
-advocate,n. 拥护者 vt. 提倡,He is an advocate for human rights.
-aesthetic,a. 美学的；审美的,The building has aesthetic appeal.
-affiliate,vt. 附属，合并 n. 分部,The college is affiliated with the university.
-affirm,vt. 断言，批准；证实,He affirmed his commitment.
-afflict,vt. 使痛苦，折磨,He was afflicted with a rare disease.
-agenda,n. 议事日程,What's on the agenda for today?
-aggravate,vt. 加重；激怒,His comments only aggravated the situation.
-aggregate,n. 总数 a. 总计的,The aggregate score was 4-2.
-agile,a. 敏捷的，轻快的,The monkey is very agile.
-agony,n. 极度痛苦,He was in agony after the fall.
-agreeable,a. 怡人的；同意的,We spent an agreeable evening together.
-alien,a. 外国的 n. 外国人,An alien culture.
-allege,vt. 宣称，申述,They allege that he stole the money.
-alleviate,vt. 减轻，缓解,The medicine helped alleviate the pain.
-alliance,n. 联盟，联合,The two countries formed an alliance.
-allocate,vt. 分配，分派,Funds were allocated for the project.
-allowance,n. 津贴，补助费,He gets a monthly allowance.
-alloy,n. 合金；(金属的)成色,Brass is an alloy of copper and zinc.
-ally,n. 盟国，同盟者,The US is a key ally.
-alter,vt. 改变，变更；改做,She had to alter her plans.
+abandon,v. 放弃；抛弃,He had to abandon his plan due to lack of funds.
+abnormal,adj. 反常的；异常的,The test results showed some abnormal readings.
+abolish,v. 废除；取消,The government decided to abolish the outdated tax law.
+absurd,adj. 荒谬的；可笑的,It is absurd to suggest that the sun revolves around the earth.
+abundance,n. 丰富；充裕,The area is famous for its abundance of natural resources.
+academic,adj. 学术的；学院的,He has a brilliant academic record at university.
+accelerate,v. 加速；促进,The government is taking steps to accelerate economic growth.
+accessible,adj. 易接近的；可得到的,The museum is easily accessible by public transport.
+accommodation,n. 住宿；膳宿,We need to find suitable accommodation for our holiday.
+accompany,v. 陪同；伴随,Strong winds often accompany heavy rain.
+accomplish,v. 完成；实现,We can accomplish anything if we work together.
+accumulate,v. 积累；堆积,Dust tends to accumulate in corners if not cleaned.
+accurate,adj. 准确的；精确的,She gave an accurate description of the suspect.
+acknowledge,v. 承认；致谢,He refused to acknowledge his mistake.
+acquire,v. 获得；习得,It takes time to acquire a new language.
+adapt,v. 适应；改编,Plants have to adapt to their environment to survive.
+adequate,adj. 充足的；适当的,The supply of water is adequate for the whole village.
+adhere,v. 坚持；粘附,You must adhere to the rules of the club.
+adjacent,adj. 毗连的；邻近的,The hotel is adjacent to the main railway station.
+adjust,v. 调整；调节,You can adjust the volume using the remote control.
+administer,v. 管理；执行,The board of directors administers the affairs of the company.
+advocate,v. 提倡；支持 n. 拥护者,Many people advocate for stricter environmental laws.
+aesthetic,adj. 美学的；审美的,The building has great aesthetic appeal.
+affiliate,v. 使隶属于 n. 分支机构,The college is affiliated with a large university.
+afflict,v. 折磨；使痛苦,The country was afflicted by a severe famine.
+aggravate,v. 加重；激怒,Stress can aggravate certain health conditions.
+alleviate,v. 减轻；缓和,The new medicine will help alleviate the pain.
+allocate,v. 分配；拨给,The council has allocated funds for the new project.
+alter,v. 改变；更改,The itinerary can be altered if necessary.
+ambiguous,adj. 模棱两可的；不明确的,His reply was so ambiguous that I wasn't sure what he meant.
+ambition,n. 雄心；抱负,His ambition is to become a world-famous scientist.
+amend,v. 修改；修正,The constitution was amended to grant women the right to vote.
+ample,adj. 充足的；宽敞的,There is ample evidence to support his theory.
+analogous,adj. 类似的；相似的,The wings of a bird are analogous to the fins of a fish.
+anticipate,v. 预期；预料,We anticipate that the project will be finished next month.
+apparatus,n. 器械；设备,The gym has all the latest fitness apparatus.
+appendix,n. 附录；阑尾,The full list of references is given in the appendix.
+applaud,v. 鼓掌；喝彩,The audience stood up to applaud the performance.
+appraisal,n. 评价；估量,She gave a realistic appraisal of the situation.
+appropriate,adj. 适当的 v. 拨款；挪用,Jeans are not appropriate for a formal wedding.
+arbitrary,adj. 任意的；武断的,The decision was based on arbitrary criteria.
+arouse,v. 引起；唤醒,His behavior aroused suspicion among the neighbors.
+array,n. 阵列；一系列 v. 排列,The store offers a wide array of products.
+articulate,adj. 善于表达的 v. 清晰阐述,He is an articulate speaker who can explain complex ideas clearly.
+ascend,v. 上升；攀登,The balloon slowly began to ascend into the sky.
+ascribe,v. 把...归因于,He ascribes his success to hard work and dedication.
+assault,n./v. 攻击；袭击,The army launched a major assault on the city.
+assemble,v. 集合；装配,The workers assemble the parts in the factory.
+assert,v. 断言；维护,She continued to assert her innocence throughout the trial.
+assessment,n. 评估；评价,The school uses internal assessment to track student progress.
+asset,n. 资产；有用的东西,Health is a valuable asset that should be protected.
+assimilate,v. 吸收；同化,It takes time to assimilate new information.
+assurance,n. 保证；信心,He gave us his assurance that the work would be done on time.
+attain,v. 达到；获得,She worked hard to attain her goals.
+attribute,v. 归因于 n. 属性,She attributes her longevity to a healthy diet.
+augment,v. 增加；扩大,The company wants to augment its market share.
+authentic,adj. 真实的；可靠的,This is an authentic signature of the famous artist.
+authorize,v. 授权；批准,Only the manager can authorize such a large expense.
+avail,v. 有利于 n. 效用,We should avail ourselves of every opportunity to learn.
+avert,v. 转移；避免,He averted his eyes from the scene of the accident.
+baffle,v. 使困惑；难住,The logic behind his decision baffles me.
+barren,adj. 贫瘠的；荒凉的,The land was so barren that nothing would grow.
+bewilder,v. 使迷惑,The complex instructions bewildered the team.
+bias,n. 偏见；偏袒,Media coverage should be free from political bias.
+bizarre,adj. 奇异的；怪诞的,The story had a bizarre ending that no one expected.
+bleak,adj. 荒凉的；暗淡的,The future looks bleak for the small company.
+blunder,n. 大错 v. 犯大错,The general's blunder cost many lives.
+boost,v./n. 提高；促进,The tax cuts are intended to boost the economy.
+boycott,v./n. 抵制,They decided to boycott the company's products.
+brink,n. 边缘,The company was on the brink of bankruptcy.
+brisk,adj. 敏捷的；活泼的,We took a brisk walk in the park this morning.
+brittle,adj. 易碎的；脆弱的,Old paper becomes brittle and turns yellow.
+budget,n. 预算 v. 编预算,We need to stick to our budget for the trip.
+bulk,n. 大部分；体积,The bulk of the work has already been completed.
+bulletin,n. 公报；公告,The latest news bulletin will be broadcast at six.
+burden,n. 负担 v. 加重负担,The cost of the repairs was a heavy burden on the family.
+campaign,n. 战役；运动 v. 参加运动,The charity launched a campaign to raise money for the homeless.
+cancel,v. 取消；删去,The flight was canceled due to bad weather.
+candidate,n. 候选人；应试者,She is the leading candidate for the job.
+capacity,n. 容量；能力,The theater was filled to its maximum capacity.
+casualty,n. 伤亡人员；受害者,There were several casualties in the road accident.
+category,n. 类别；种类,Books are organized into different categories in the library.
+cater,v. 迎合；提供饮食,The hotel caters to the needs of business travelers.
+cease,v. 停止；终止,The fighting ceased after the peace treaty was signed.
+cherish,v. 珍爱；怀抱,We should cherish the memories of our childhood.
+chronic,adj. 慢性的；长期的,He suffers from chronic back pain.
+circulation,n. 流通；发行量,The newspaper has a daily circulation of over a million.
+clash,v./n. 冲突；抵触,Protesters clashed with the police in the city center.
+climax,n. 高潮；顶点,The story reaches its climax in the final chapter.
+clumsy,adj. 笨拙的；不得体的,His clumsy movements caused him to drop the vase.
+coherent,adj. 连贯的；一致的,The essay was well-written and coherent.
+coincide,v. 同时发生；相符,My ideas coincide with yours on this matter.
+collaboration,n. 合作；协作,The project was the result of a collaboration between two teams.
+collapse,v./n. 倒塌；崩溃,The building collapsed during the earthquake.
+collide,v. 碰撞；冲突,Two cars collided at the busy intersection.
+combat,v./n. 战斗；斗争,The government is taking measures to combat crime.
+commence,v. 开始,The graduation ceremony will commence at 10 AM.
+commemorate,v. 纪念,A plaque was put up to commemorate the event.
+commend,v. 表扬；推荐,I would highly commend his work to you.
+compact,adj. 紧凑的 v. 使紧凑,The new camera is small and compact.
+comparable,adj. 可比的；类似的,The two products are comparable in quality.
+compatible,adj. 兼容的；和谐的,The new software is compatible with older operating systems.
+compensate,v. 补偿；赔偿,The company will compensate workers for overtime.
+competent,adj. 有能力的；胜任的,She is a very competent and hard-working employee.
+compile,v. 编辑；汇编,It took ages to compile all the data for the report.
+complement,v./n. 补充；相辅相成,The wine is a perfect complement to the spicy food.
+compliance,n. 顺从；符合,The company is in full compliance with safety regulations.
+compliment,n./v. 赞美；称赞,He paid her a nice compliment on her dress.
+comply,v. 遵照；照做,All students must comply with the school rules.
+component,n. 组成部分；成分,Trust is a vital component of any relationship.
+compose,v. 组成；创作,The committee is composed of elected members.
+comprehensive,adj. 全面的；综合的,The book provides a comprehensive guide to history.
+compromise,v./n. 妥让；折中,In a relationship, you sometimes have to compromise.
+compulsory,adj. 必修的；强制的,Primary education is compulsory in most countries.
+concede,v. 承认；让步,The candidate refused to concede defeat.
+conceive,v. 构思；怀孕,It's hard to conceive of a world without the internet.
+concise,adj. 简明的,His style of writing is clear and concise.
+concrete,adj. 具体的 n. 混凝土,We need a concrete plan, not just vague ideas.
+confer,v. 授予；商谈,The university will confer honorary degrees on the guests.
+confidential,adj. 秘密的；机密的,Information obtained during the interview is confidential.
+conform,v. 遵守；一致,He refused to conform to the traditional rules.
+confront,v. 面对；对抗,We must confront the problem before it gets worse.
+conscientious,adj. 认真的；尽责的,He is a conscientious worker who pays attention to detail.
+consensus,n. 共识；一致,The committee finally reached a consensus on the issue.
+consequent,adj. 随之发生的,The rain and the consequent flooding caused many problems.
+conservative,adj. 保守的 n. 保守的人,His views on education are quite conservative.
+considerable,adj. 相当大的；值得考虑的,The project required a considerable amount of time.
+conspicuous,adj. 显着的；引人注目的,The tower is a conspicuous landmark in the city.
+constituent,n. 成分；选民,The constituents are demanding more action from their MP.
+constrain,v. 束缚；限制,Financial problems constrained the company's growth.
+consult,v. 咨询；等候,You should consult a doctor if the pain continues.
+contaminate,v. 污染,Chemicals have contaminated the water supply.
+contemplate,v. 沉思；打算,He sat there contemplating his future.
+contempt,n. 轻视；鄙视,She has nothing but contempt for people who lie.
+contention,n. 争论；论点,The main point of contention was the cost.
+contradict,v. 反驳；矛盾,The witness's statement contradicts the evidence.
+contrive,v. 设计；发明；设法,He contrived a way to open the locked door.
+controversial,adj. 有争议的,The new law is highly controversial.
+convene,v. 召集；开会,The committee will convene next week to discuss the proposal.
+converge,v. 会合；聚集,People converged from all sides to see the parade.
+conviction,n. 定罪；确信,She spoke with deep conviction about her beliefs.
+coordinate,v. 协调；配合,We need someone to coordinate the whole project.
+cordial,adj. 热诚的；衷心的,The host gave us a cordial welcome.
+correlate,v. 相关联,Researchers are trying to correlate stress with heart disease.
+corrupt,adj. 腐败的 v. 使腐败,The investigation revealed a corrupt political system.
+counteract,v. 抵消；中和,Exercise can help counteract the effects of stress.
+counterpart,n. 对应的人或物,The president will meet with his French counterpart.
+courtesy,n. 礼貌；好意,He treated everyone with courtesy and respect.
+crucial,adj. 至关重要的,The next few hours will be crucial for his recovery.
+cue,n. 暗示；提示,The actor missed his cue and didn't come on stage.
+curb,v./n. 抑制；路缘,The government is trying to curb inflation.
+curriculum,n. 课程,The school is introducing a new science curriculum.
+dazzle,v. 使眩目；使其倾倒,The bright lights of the city dazzled the young girl.
+deadline,n. 截止日期,The deadline for applications is Friday afternoon.
+decent,adj. 体面的；正派的,He is a decent man who always tries to do the right thing.
+decipher,v. 破译；解释,I can't decipher his messy handwriting.
+dedicate,v. 奉献；致力于,She dedicated her life to helping the poor.
+deem,v. 认为；相信,The building was deemed unsafe and was demolished.
+deficiency,n. 缺乏；不足,A deficiency of vitamin C can lead to health problems.
+deficit,n. 赤字；亏损,The government is trying to reduce the budget deficit.
+defy,v. 违抗；蔑视,He decided to defy the orders of his boss.
+degenerate,v. 退化；恶化,The discussion degenerated into a heated argument.
+delegate,n. 代表 v. 委派,Each country sent a delegate to the conference.
+deliberate,adj. 故意的 v. 仔细考虑,It was a deliberate attempt to mislead the public.
+denounce,v. 谴责；告发,The group denounced the use of violence.
+depict,v. 描绘；描写,The painting depicts a beautiful rural landscape.
+deprive,v. 剥夺；使丧失,They were deprived of their basic human rights.
+descend,v. 下降,The plane began to descend as it approached the airport.
+designate,v. 指定；委派,The area has been designated as a nature reserve.
+despatch,v./n. 派遣；发送,A courier was despatched with the urgent documents.
+detach,v. 分离；拆卸,You can detach the keyboard from the tablet.
+deteriorate,v. 恶化；变坏,The patient's condition began to deteriorate rapidly.
+deviate,v. 偏离；越轨,He never deviates from his strict daily routine.
+dignity,n. 尊严；高贵,He faced his problems with courage and dignity.
+diligent,adj. 勤勉的,She is a very diligent student who always finishes her work.
+diminish,v. 减少；缩小,The noise began to diminish as we walked away.
+discerne,v. 识别；辨别,It's difficult to discern the truth from his story.
+discipline,n. 纪律；学科 v. 训练,The school has very strict rules and discipline.
+disclose,v. 揭露；公开,The company refused to disclose its financial secrets.
+discrete,adj. 分离的；不连续的,The data is broken down into discrete categories.
+discriminate,v. 歧视；区别,It is illegal to discriminate based on race or gender.
+disguise,v./n. 掩盖；伪装,He wore a wig to disguise his appearance.
+disorder,n. 混乱；失调,The room was in a state of total disorder.
+displace,v. 取代；置换,Many people were displaced by the heavy flooding.
+disposal,n. 处理；处置,The safe disposal of waste is a major problem.
+disseminate,v. 散布；传播,The internet is used to disseminate information quickly.
+dissipate,v. 驱散；浪费,The smoke began to dissipate as the wind blew.
+distill,v. 蒸馏；提取,The wine is distilled to make brandy.
+distort,v. 扭曲；歪曲,His remarks were distorted by the media.
+distract,v. 分散注意力,The loud music distracted me from my work.
+diverge,v. 分歧；偏离,Our career paths began to diverge after university.
+diversion,n. 转向；消遣,The game provided a pleasant diversion from work.
+divert,v. 转移；使转向,The traffic was diverted because of an accident.
+dividend,n. 红利；奖金,The company paid a generous dividend to its shareholders.
+divine,adj. 神圣的；非凡的,The sunset was a divine sight to behold.
+dominance,n. 优势；统治,The company maintains its dominance in the market.
+doom,n. 厄运 v. 注定,The project seemed doomed to fail from the start.
+drastic,adj. 激烈的；严厉的,The situation requires drastic measures to be taken.
+dubious,adj. 可疑的；怀疑的,He made some dubious claims about his background.
+duplicate,v. 复制; adj. 复制的,It's a duplicate of the original document.
+dwell,v. 居住；沉思,He dwells in a small cottage by the sea.
+dynamic,adj. 有活力的；动态的,The city has a dynamic and growing economy.
+earnings,n. 收入；工资,The company's earnings have increased this year.
+eccentric,adj. 古怪的 n. 怪人,He is known for his eccentric behavior.
+echo,n./v. 回声；共鸣,Her voice echoed through the empty hall.
+eclipse,n. 日食；月食 v. 遮蔽,The moon will eclipse the sun tomorrow.
+edge,n. 边缘；优势,They have a slight competitive edge over their rivals.
+edible,adj. 可食用的,The berries are bright red and edible.
+efficient,adj. 效率高的；能干的,The new system is much more efficient than the old one.
+eject,v. 喷射；驱逐,The pilot was forced to eject from the plane.
+elaborate,adj. 精心的 v. 详尽说明,She wore an elaborate dress for the party.
+elapse,v. 消逝；流逝,Three years had elapsed since we last met.
+elastic,adj. 有弹性的；灵活的,The rubber band is very elastic and strong.
+elective,adj. 选修的；选举的,Art and music are elective subjects at this school.
+elevate,v. 抬高；提拔,Reading books can help elevate your mind.
+eligible,adj. 有资格的；合格的,Only citizens are eligible to vote in the election.
+eliminate,v. 排除；消除,The goal is to eliminate poverty in the region.
+elite,n. 精英；精华,The university attracts the intellectual elite of the country.
+eloquent,adj. 雄辩的；有说服力的,He gave an eloquent speech at the ceremony.
+embark,v. 上船；开始(旅程/事业),They are about to embark on a new business venture.
+embody,v. 体现；包含,The new law embodies the principles of fairness.
+embrace,v./n. 拥抱；接受,She decided to embrace the new lifestyle.
+emerge,v. 出现；显露,New evidence began to emerge during the trial.
+eminent,adj. 杰出的；著名的,He is an eminent scientist in the field of biology.
+emmit,v. 发出；发射,The chimney emits thick black smoke.
+empirical,adj. 经验主义的,The theory is based on empirical data and research.
+endeavor,v./n. 努力；尽力,They will endeavor to finish the work on time.
+endow,v. 资助；赋予,The university was endowed by a wealthy businessman.
+endure,v. 忍受；持续,They had to endure terrible conditions in the desert.
+enforce,v. 实施；强制,The police are responsible for enforcing the law.
+engage,v. 吸引；占用；订婚,He likes to engage in deep conversations with friends.
+enhance,v. 提高；增强,The new software will enhance the performance of the system.
+enlighten,v. 启发；开导,The book helped enlighten me about the history of art.
+enormous,adj. 巨大的；极大的,The company made an enormous profit last year.
+enroll,v. 招收；登记,She decided to enroll in a photography course.
+ensure,v. 确保；保证,We must take steps to ensure the safety of the public.
+entail,v. 使必需；牵涉,The job entails a lot of travel around the country.
+enterprise,n. 企业；进取心,The new enterprise created many jobs in the area.
+enthusiasm,n. 热情；热心,He showed great enthusiasm for the new project.
+entity,n. 实体；统一体,The company is a separate legal entity.
+envisage,v. 想象；设想,I don't envisage any problems with the new plan.
+episode,n. 片断；一集,That was a very interesting episode in her life.
+equator,n. 赤道,Brazil is located near the equator.
+equivalent,adj. 相等的 n. 等价物,The prize is equivalent to a year's salary.
+eradicate,v. 根除；消灭,We are trying to eradicate disease from the region.
+erode,v. 侵蚀；削弱,The sea continues to erode the coastline.
+erroneous,adj. 错误的,The conclusions were based on erroneous data.
+escort,v./n. 护送；陪同,The general had a military escort for his safety.
+essence,n. 本质；精髓,The essence of the theory is very simple.
+estate,n. 地产；财产,He left his entire estate to his children.
+esteem,n./v. 尊重；敬重,He is held in high esteem by his colleagues.
+estimate,v./n. 估计；估算,The total cost is estimated to be ten thousand dollars.
+eternal,adj. 永恒的；不断的,The search for eternal life has fascinated people for centuries.
+ethics,n. 伦理；道德,The company has a strong code of ethics.
+evacuate,v. 撤离；排泄,The building was evacuated after the fire alarm went off.
+evade,v. 逃避；规避,He was accused of trying to evade taxes.
+evaluate,v. 评价；评估,The teacher will evaluate the students' work.
+evaporate,v. 蒸发；消失,The water will evaporate if you leave it in the sun.
+evoke,v. 唤起；引起,The old song evoked many happy memories.
+exaggerate,v. 夸大；夸张,He tends to exaggerate his achievements.
+exceed,v. 超过；胜过,The cost of the project exceeded the budget.
+exceptional,adj. 异常的；杰出的,He is an exceptional student with a great future.
+excess,n./adj. 过量；过剩,An excess of sugar is bad for your health.
+exclude,v. 排除；不包括,The price excludes the cost of delivery.
+exclusive,adj. 独有的；排他的,The club has an exclusive membership list.
+execute,v. 执行；处死,The plan was executed with great precision.
+exemplify,v. 例证；例示,The recent successes exemplify the new strategy.
+exempt,v./adj. 免除；豁免,Small businesses are exempt from the new tax.
+exert,v. 运用；施加,He had to exert all his strength to move the rock.
+exhaust,v. 使筋疲力尽；耗尽,The long walk had exhausted the children.
+exhibit,v./n. 展览；显示,The museum is exhibiting a collection of old coins.
+exile,n./v. 流放；流亡,The writer lived in exile for many years.
+expand,v. 扩张；蓬勃发展,The business is planning to expand its operations.
+expedition,n. 远征；探险队,They went on an expedition to the North Pole.
+expel,v. 驱逐；开除,He was expelled from school for bad behavior.
+expenditure,n. 开支；消耗,The government is trying to reduce public expenditure.
+expertise,n. 专门知识；技能,The job requires a high level of technical expertise.
+explicit,adj. 明确的；直言的,She gave explicit instructions on how to finish the work.
+exploit,v. 开发；剥削 n. 勋绩,The company was accused of exploiting its workers.
+extinct,adj. 灭绝的；绝迹的,Dinosaurs became extinct millions of years ago.
+extract,v./n. 提取；摘录,The oil is extracted from the seeds of the plant.
+extravagant,adj. 奢侈的；过分的,She is very extravagant with her money.
+fabricate,v. 捏造；制造,The report was based on fabricated evidence.
+facilitate,v. 促进；减轻,The new road will facilitate travel between the two cities.
+faction,n. 派别；内部斗争,There are several different factions within the party.
+faculty,n. 才能；院系,The university has a distinguished faculty of law.
+fake,adj. 假的 n. 赝品,The painting turned out to be a fake.
+fantasy,n. 幻想；白日梦,The story is a mixture of fact and fantasy.
+fascinate,v. 使着迷,Ancient history has always fascinated her.
+feasible,adj. 可行的；可能的,It is not feasible to build a bridge across the river here.
+feeble,adj. 虚弱的；微弱的,The old man gave a feeble smile.
+flexible,adj. 灵活的；易弯曲的,A flexible schedule is important for many workers.
+fluctuate,v. 波动；起伏,Prices fluctuate according to supply and demand.
+format,n. 格式；设计,The data is available in several different formats.
+formidable,adj. 可怕的；难对付的,The team faces a formidable challenge in the finals.
+foster,v. 培养；养育,The school aims to foster a love of learning.
+fraction,n. 小部分；分数,Only a small fraction of the budget was spent on art.
+fragile,adj. 易碎的；虚弱的,Be careful with that vase, it is very fragile.
+friction,n. 摩擦；冲突,There is a lot of friction between the two neighbors.
+frustrate,v. 使挫败；使沮丧,The lack of progress began to frustrate the team.
+furious,adj. 狂怒的；激烈的,He was furious when he heard the news.
+generate,v. 生成；引起,The new factory will generate many jobs.
+genuine,adj. 真正的；坦率的,This is a genuine leather jacket.
+glamour,n. 魅力；诱惑力,The Hollywood actress had a lot of glamour.
+glimpse,n./v. 一瞥,I only caught a glimpse of the suspect.
+global,adj. 全球的；总的,Climate change is a global problem.
+gorgeous,adj. 华丽的；极好的,The sunset was absolutely gorgeous.
+grant,v. 授予；承认 n. 拨款,The government granted him a research scholarship.
+graphic,adj. 图解的；生动的,The report gave a graphic description of the accident.
+greed,n. 贪婪,His actions were motivated by pure greed.
+grief,n. 悲痛；忧伤,The whole nation shared the family's grief.
+guarantee,v./n. 保证；担保,The product comes with a two-year guarantee.
+habitat,n. 栖息地,The forest is the natural habitat of many animals.
+halt,n./v. 停止；中顿,The construction of the building came to a halt.
+harsh,adj. 严酷的；刺耳的,The weather conditions in the desert are very harsh.
+hazard,n. 危险；危害,Smoking is a serious health hazard.
+heir,n. 继承人,He is the heir to a large family fortune.
+heritage,n. 遗产；传统,We must protect our national cultural heritage.
+hierarchy,n. 等级制度；阶层,There is a clear hierarchy in the military.
+highlight,v. 突出 n. 最精彩部分,The report highlights the need for more investment.
+hinder,v. 阻碍；妨碍,Bad weather hindered the rescue efforts.
+hint,n./v. 暗示,He dropped a hint that he was planning to quit.
+hostile,adj. 敌对的；不友好的,The local people were hostile to the new project.
+humble,adj. 谦逊的；卑微的,He comes from a very humble background.
+hypocrisy,n. 伪善,He was accused of hypocrisy after his actions.
+hypothesis,n. 假设；假说,Scientists are testing the new hypothesis.
+identical,adj. 完全相同的,The two twins look almost identical.
+identify,v. 识别；鉴定,The police are trying to identify the suspect.
+ignorant,adj. 无知的；愚昧的,She was completely ignorant of the facts.
+illuminate,v. 照亮；阐明,The street was illuminated by bright lights.
+illusion,n. 幻觉；错觉,The mirrors created an illusion of space.
+illustrate,v. 说明；阐明,The teacher used examples to illustrate the point.
+immune,adj. 免疫的；免除的,Most people are immune to this common cold.
+impact,n./v. 影响；冲击,The new policy will have a big impact on schools.
+impel,v. 推动；驱使,Curiosity impelled him to open the box.
+imperative,adj. 迫切的；必要的,It is imperative that we act now.
+implement,v. 实施 n. 工具,The government is implementing new tax laws.
+implicit,adj. 含蓄的；内含的,There was an implicit agreement between them.
+imply,v. 暗示；意味着,His silence seemed to imply agreement.
+impose,v. 强加；征税,The government decided to impose a new tax.
+impulse,n. 冲动；驱动力,He had a sudden impulse to go for a run.
+incentive,n. 动机；刺激,The company offered an incentive to work harder.
+incidence,n. 发生率,There is a high incidence of heart disease here.
+incline,v. 倾斜；倾向于,I incline to the view that we should wait.
+inclusive,adj. 包含的；包容的,The price is inclusive of all taxes.
+incorporate,v. 合并；包含,The new design incorporates all the latest features.
+indication,n. 暗示；迹象,There is no indication of a change in policy.
+indispensable,adj. 必不可少的,Water is indispensable for all living things.
+induce,v. 引起；诱导,The medicine may induce drowsiness.
+inevitable,adj. 不可避免的,Change is an inevitable part of life.
+infant,n. 婴儿,The clinic provides care for mother and infant.
+infer,v. 推断；猜想,What can we infer from these results?
+inferior,adj. 下等的；次要的,The quality of this product is inferior.
+infinite,adj. 无限的；极大的,The universe is vast and infinite.
+inflation,n. 通货膨胀,The government is trying to control inflation.
+inflict,v. 造成；施加,The storm inflicted heavy damage on the crops.
+inherent,adj. 固有的；内在的,Risks are inherent in any new business.
+initiate,v. 开始；发起,The company plans to initiate a new project.
+insight,n. 洞察力；见解,The book provides a great insight into history.
+inspect,v. 检查；视察,The health inspector came to inspect the kitchen.
+inspire,v. 鼓舞；启发,Her courage inspired us all to do better.
+install,v. 安装；安置,The mechanic came to install the new engine.
+instance,n. 例子；事例,This is a clear instance of a mistake.
+instinct,n. 本能；天性,Birds have an instinct to fly south in winter.

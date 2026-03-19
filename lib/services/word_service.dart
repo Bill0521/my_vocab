@@ -24,12 +24,38 @@ class WordService {
     return await openDatabase(
       path,
       version: 1,
-      onCreate: (db, version) {
-        return db.execute(
+      onCreate: (db, version) async {
+        await db.execute(
           'CREATE TABLE words(id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT, definition TEXT, example TEXT, difficulty INTEGER, easeFactor REAL, interval INTEGER, nextReviewDate TEXT)',
         );
+        await _loadInitialData(db);
       },
     );
+  }
+
+  Future<void> _loadInitialData(Database db) async {
+     try {
+       final csvString = await rootBundle.loadString('assets/cet6.csv');
+       final List<List<dynamic>> fields = const CsvToListConverter().convert(csvString);
+       
+       if (fields.isNotEmpty) {
+           final batch = db.batch();
+           for (var row in fields) {
+            if (row.length >= 2) { 
+              final word = Word(
+                word: row[0].toString(),
+                definition: row[1].toString(),
+                example: row.length > 2 ? row[2].toString() : null,
+                nextReviewDate: DateTime.now(), 
+              );
+              batch.insert('words', word.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
+            }
+          }
+          await batch.commit(noResult: true);
+       }
+     } catch (e) {
+       print("Error loading initial data: $e");
+     }
   }
 
   Future<void> insertWord(Word word) async {
