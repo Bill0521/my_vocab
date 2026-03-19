@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   sqflite: ^2.3.0
   path: ^1.8.3
   provider: ^6.0.5
@@ -21,11 +23,6 @@ dependencies:
   fl_chart: ^0.63.0
   intl: ^0.18.1
 
-flutter:
-  uses-material-design: true
-  assets:
-    - assets/cet6.csv
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -33,3 +30,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/cet6.csv
