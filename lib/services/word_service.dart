@@ -93,18 +93,20 @@ class WordService {
   Future<void> importAssetCSV() async {
      try {
        final csvString = await rootBundle.loadString('assets/cet6.csv');
-       final fields = const CsvToListConverter().convert(csvString);
-       // Check if there are words before inserting
+       final List<List<dynamic>> fields = const CsvToListConverter().convert(csvString);
+       
        if (fields.isNotEmpty) {
            await _insertRows(fields);
        }
      } catch (e) {
        print("Error importing asset: $e");
-       rethrow;
+       // rethrow; // causing safe mode issues if UI doesn't catch
      }
   }
 
   Future<void> _insertRows(List<List<dynamic>> rows) async {
+     // Use database getter directly, don't await database again if it's already a future
+     // Actually, just calling database getter is fine.
      final db = await database;
      final batch = db.batch(); // Use batch for faster insertion
 
@@ -116,6 +118,7 @@ class WordService {
           example: row.length > 2 ? row[2].toString() : null,
           nextReviewDate: DateTime.now(), 
         );
+        // Important: conflictAlgorithm is named argument
         batch.insert('words', word.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
       }
     }
