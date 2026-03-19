@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:my_vocab/providers/word_provider.dart';
 import 'package:my_vocab/models/word.dart';
-import 'package:flutter_tts/flutter_tts.dart';
+import 'package:my_vocab/services/tts_service.dart';
 
 class StudyScreen extends StatefulWidget {
   const StudyScreen({super.key});
@@ -12,30 +12,30 @@ class StudyScreen extends StatefulWidget {
 }
 
 class _StudyScreenState extends State<StudyScreen> {
+  // Use shared TTSService instead of direct FlutterTts
+  final TTSService _ttsService = TTSService();
   bool _showBack = false;
-  final FlutterTts flutterTts = FlutterTts();
 
   @override
   void initState() {
     super.initState();
-    _initTts();
-
-    // 自动播放第一个单词（如果存在）
+    // No explicit init needed as instance does it, but good practice
     WidgetsBinding.instance.addPostFrameCallback((_) {
        final provider = Provider.of<WordProvider>(context, listen: false);
        if (provider.wordsDue.isNotEmpty) {
-         _speak(provider.wordsDue.first.word);
+         _ttsService.speak(provider.wordsDue.first.word);
        }
     });
   }
 
-  Future<void> _initTts() async {
-    await flutterTts.setLanguage("en-US");
-    await flutterTts.setPitch(1.0);
+  Future<void> _speak(String text) async {
+    await _ttsService.speak(text);
   }
 
-  Future<void> _speak(String text) async {
-    await flutterTts.speak(text);
+  @override
+  void dispose() {
+    _ttsService.stop();
+    super.dispose();
   }
 
   @override
