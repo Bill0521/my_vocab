@@ -2,9 +2,43 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:my_vocab/providers/word_provider.dart';
 import 'package:my_vocab/screens/settings_screen.dart';
+import 'package:intl/intl.dart';
+import 'dart:async';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  late String _currentTime;
+  late String _currentDate;
+  late Timer _timer;
+
+  @override
+  void initState() {
+    super.initState();
+    _updateTime();
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) => _updateTime());
+  }
+
+  void _updateTime() {
+    final now = DateTime.now();
+    if (mounted) {
+      setState(() {
+        _currentTime = DateFormat('HH:mm').format(now);
+        _currentDate = DateFormat('yyyy年M月d日 EEEE', 'zh_CN').format(now);
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -27,12 +61,25 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Welcome Back!'),
-            const SizedBox(height: 20),
+            Text(
+              _currentTime,
+              style: Theme.of(context).textTheme.displayLarge?.copyWith(
+                fontWeight: FontWeight.bold,
+                color: Theme.of(context).primaryColor,
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              _currentDate,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                color: Colors.grey[700],
+              ),
+            ),
+            const SizedBox(height: 40),
             Consumer<WordProvider>(
               builder: (context, provider, child) {
                 int dueCount = provider.wordsDue.length;
-                return Text('Today\'s Review: $dueCount words');
+                return Text('今日待复习: $dueCount 个单词', style: const TextStyle(fontSize: 18));
               },
             ),
             const SizedBox(height: 40),
@@ -40,7 +87,10 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/study');
               },
-              child: const Text('Start Review'),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 16),
+              ),
+              child: const Text('开始学习', style: TextStyle(fontSize: 18)),
             ),
           ],
         ),
