@@ -4,6 +4,7 @@ import 'package:my_vocab/models/word.dart';
 import 'dart:io';
 import 'dart:convert';
 import 'package:csv/csv.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 class WordService {
   static final WordService _instance = WordService._internal();
@@ -86,17 +87,39 @@ class WordService {
     final input = file.openRead();
     final fields = await input.transform(utf8.decoder).transform(new CsvToListConverter()).toList();
 
-    for (var row in fields) {
-      if (row.length >= 2) { // Expect at least word, definition
+    await _insertRows(fields);
+  }
+
+  Future<void> importAssetCSV() async {
+     try {
+       final csvString = await rootBundle.loadString('assets/cet6.csv');
+       final fields = const CsvToListConverter().convert(csvString);
+       // Check if there are words before inserting
+       if (fields.isNotEmpty) {
+           await _insertRows(fields);
+       }
+     } catch (e) {
+       print("Error importing asset: $e");
+       rethrow;
+     }
+  }
+
+  Future<void> _insertRows(List<List<dynamic>> rows) async {
+     final db = await database;
+     final batch = db.batch(); // Use batch for faster insertion
+
+     for (var row in rows) {
+      if (row.length >= 2) { 
         final word = Word(
           word: row[0].toString(),
           definition: row[1].toString(),
           example: row.length > 2 ? row[2].toString() : null,
-          nextReviewDate: DateTime.now(), // Newly added words due immediately
+          nextReviewDate: DateTime.now(), 
         );
-        await insertWord(word);
+        batch.insert('words', word.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
       }
     }
+    await batch.commit(noResult: true);
   }
   
   Future<String> exportCSV() async {

@@ -30,6 +30,12 @@ class SettingsScreen extends StatelessWidget {
             onTap: () => _importCSV(context),
           ),
           ListTile(
+            title: const Text('Import CET-6 Vocabulary'),
+            subtitle: const Text('Load default word list (50 words sample)'),
+            leading: const Icon(Icons.library_books),
+            onTap: () => _importAssetCSV(context),
+          ),
+          ListTile(
             title: const Text('Export Backup'),
             subtitle: const Text('Save all words to CSV'),
             leading: const Icon(Icons.file_download),
@@ -63,6 +69,20 @@ class SettingsScreen extends StatelessWidget {
           const SnackBar(content: Text('Import Successful!')),
         );
       }
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Error: $e')),
+      );
+    }
+  }
+
+  Future<void> _importAssetCSV(BuildContext context) async {
+    try {
+      await WordService().importAssetCSV();
+      Provider.of<WordProvider>(context, listen: false).loadWords();
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('CET-6 Words Imported!')),
+      );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Error: $e')),
