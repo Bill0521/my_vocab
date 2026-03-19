@@ -24,6 +24,15 @@ jobs:
         flutter-version: '3.19.0'
         channel: 'stable'
         
+    - name: Create Android Project Files
+      run: flutter create --project-name my_vocab .
+
+    - name: Update Android MinSdkVersion
+      run: |
+        sed -i 's/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/g' android/app/build.gradle
+        # Just in case the format is different in newer templates:
+        sed -i 's/minSdkVersion [0-9]*/minSdkVersion 23/g' android/app/build.gradle
+
     - name: Get Dependencies
       run: flutter pub get
       
