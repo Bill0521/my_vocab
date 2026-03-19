@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:my_vocab/providers/word_provider.dart';
 import 'package:my_vocab/screens/settings_screen.dart';
+import 'package:my_vocab/screens/word_list_screen.dart';
 import 'package:intl/intl.dart';
 import 'dart:async';
 
@@ -136,7 +137,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-                             _buildInfoItem('总词汇量', '$total'),
+                             GestureDetector(
+                               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const WordListScreen())),
+                               child: _buildInfoItem('总词汇量', '$total'),
+                             ),
                              _buildInfoItem('累计坚持', '1 天'), // 这个以后做
                           ],
                         ),
