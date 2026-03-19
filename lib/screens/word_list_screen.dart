@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:my_vocab/providers/word_provider.dart';
 import 'package:my_vocab/models/word.dart';
+import 'package:my_vocab/services/tts_service.dart';
 
 class WordListScreen extends StatelessWidget {
   const WordListScreen({super.key});
